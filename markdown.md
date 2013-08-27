@@ -16,6 +16,10 @@ For paragraphs in Markdown there is no visible syntax,
 just write lines of text and separate them by a blank line.
 Markdown will automatically convert text with blank lines between into paragraphs.
 
+	This is the first paragraph.
+	
+	This is the second paragraph of text.
+
 To make something italic, surround it in a single set of asterisks.
 To make something bold, surround it in double asterisks.
 
@@ -45,7 +49,10 @@ One of the most common uses for Markdown files is Readmes.
 You’ll notice that GitHub will render your Markdowned Readme file and present it in a styled view.
 Just name your Readme `README.md` and GitHub will do the rest.
 
-Try [MarkDrop](http://www.markdrop.com/) or [Marked](http://markedapp.com/) to test how your Markdown code will look after being rendered.
+Another really common use is content preparation for responsive websites.
+It’s a really good way to organize and understand the structure of content without forcing HTML upon your authors.
+
+Some Markdown processors are even aware of [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/), that can allow authors to add extra metadata to their documents.
 
 ## Resources & tutorials
 
@@ -53,3 +60,10 @@ Try [MarkDrop](http://www.markdrop.com/) or [Marked](http://markedapp.com/) to t
 - <http://daringfireball.net/projects/markdown/>
 - <http://daringfireball.net/projects/markdown/basics>
 - <http://daringfireball.net/projects/markdown/syntax>
+
+## Apps
+
+- [Dingus](http://daringfireball.net/projects/markdown/dingus)
+- [Markdrop](http://www.markdrop.com/)
+- [IA Writer](http://www.iawriter.com/)
+- [Markded](http://markedapp.com/)
