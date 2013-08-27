@@ -41,7 +41,27 @@ To add links there is a little more syntax:
 
 	[Link this text](http://url-to-link-to.com/)
 
-Read the [syntax documentation](http://daringfireball.net/projects/markdown/syntax) for lots more.
+To add images, use a syntax similar to links:
+
+	![Image alt attribute](http://url-to-image.com/image.png)
+
+To add horizontal rules, use three dashes:
+
+	This is a paragraph.
+	
+	---
+	
+	This is another paragraph, separated by a horizontal rule.
+
+And finally, GitHub supports to-do lists in Markdown files using the following format:
+
+	- [ ] Thing to do
+	- [ ] Another thing to do
+	- [x] Thing that’s already done
+
+*GitHub will even convert those to checkboxes in specific locations.*
+
+**Read the [syntax documentation](http://daringfireball.net/projects/markdown/syntax) for lots more.**
 
 ## Use
 
