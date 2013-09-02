@@ -83,7 +83,9 @@ Some Markdown processors are even aware of [YAML Front Matter](http://jekyllrb.c
 
 ## Apps
 
+- **[IA Writer](http://www.iawriter.com/)**
+- **[Marked](http://markedapp.com/)**
 - [Dingus](http://daringfireball.net/projects/markdown/dingus)
 - [Markdrop](http://www.markdrop.com/)
-- [IA Writer](http://www.iawriter.com/)
-- [Markded](http://markedapp.com/)
+- [Mou](http://mouapp.com/)
+- [Byword](http://bywordapp.com/)
