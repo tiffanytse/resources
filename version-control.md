@@ -112,6 +112,10 @@ Every time you commit you must write a commit message describing what you change
 
 ## Tutorials & books
 
+### Videos
+
+- <https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB>
+
 ### Version control
 
 - <http://betterexplained.com/articles/a-visual-guide-to-version-control/>
