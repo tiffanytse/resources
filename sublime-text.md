@@ -100,11 +100,11 @@ You can create a snippet that will insert that code for you.
 
 For me, I type `html5` then hit **tab** and it will insert that code for me.
 
+#### Snippets starter
+
 If you want to get a few snippets to start out, you can download my snippets from GitHub.
 
 [⬇ Download my snippets](https://github.com/thomasjbradley/sublime-snippets/archive/master.zip)
-
-#### Snippets starter
 
 ##### What’s included
 
