@@ -4,16 +4,16 @@ Version control is something all developers & designers should become intimately
 
 There are two kinds of version control software: centralized and distributed. With centralized you only get a copy of the current version of the code, but with distributed you get all the history also.
 
-Distributed solutions are better for collaboration with other developers and easily merge your changes with others’ changes.
+Distributed solutions are considered to be better for collaboration with other developers and easily merge your changes with others’ changes.
 
 ## Tools
 
-- **Git <http://git-scm.com/>**
+- **[Git](http://git-scm.com/)**
 
 	A distributed version control system, popularized by [GitHub](https://github.com/) and the [Ruby](http://www.ruby-lang.org/en/) community.
 
-- Mercurial <http://mercurial.selenic.com/>; competitor to Git
-- Subversion <http://subversion.tigris.org/>; centralized, older.
+- [Mercurial](http://mercurial.selenic.com/) — competitor to Git
+- [Subversion](http://subversion.tigris.org/) — centralized, older.
 
 ---
 
@@ -28,6 +28,7 @@ Distributed solutions are better for collaboration with other developers and eas
 - *Remote:* a copy of the repository on another computer
 - *Pull:* get commits from a remote repository
 - *Push:* send your commits to a remote repository
+- *Branch:* A copy of your code with a different series of changes
 - *Merge:* combine your changes with another developers’ changes
 
 ---
@@ -62,6 +63,7 @@ Git is primarily a command line tool, here are a few commands that you’ll use 
 - `$ git pull` Get changes from a remote repository and merge them with your local copy
 - `$ git rm` Delete a file from the repository
 - `$ git checkout` Move backward and forward in history
+- `$ git branch` Create a new, different version of the repository to add a new feature
 
 *Most Git GUI tools have buttons that perform the same commands you’d execute with the Terminal.*
 
@@ -81,7 +83,7 @@ Just create a file in your repository named `.gitignore` and put the names of th
 	.DS_Store
 	Thumbs.db
 
-Git ignore templates: <https://github.com/github/gitignore>
+[☛ Git ignore templates on GitHub](https://github.com/github/gitignore)
 
 ---
 
@@ -114,29 +116,25 @@ Every time you commit you must write a commit message describing what you change
 
 ### Videos
 
-- <https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB>
+- [Git + GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB)
 
 ### Version control
 
-- <http://betterexplained.com/articles/a-visual-guide-to-version-control/>
-- <http://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/>
+- [A Visual Guide to Version Control](http://betterexplained.com/articles/a-visual-guide-to-version-control/)
+- [Intro to Distributed Version Control Illustrated](http://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/)
 
 ### Git
 
-- <http://book.git-scm.com/>
-- <http://git-scm.com/documentation> (Videos)
-- <http://gitimmersion.com/>
-- <http://help.github.com/>
-- <http://progit.org/book/>
-- <http://gitref.org/>
-- <https://github.com/Gazler/githug> (Learning game)
-- <http://css-tricks.com/video-screencasts/101-lets-suck-at-github-together/> (Video)
-- <http://nvie.com/posts/a-successful-git-branching-model/>
+- [Git Book](http://book.git-scm.com/)
+- [Git Documentation](http://git-scm.com/documentation)
+- [Git Immersion: Git Fundamentals](http://gitimmersion.com/)
+- [GitHub Help](http://help.github.com/)
+- [Git Reference](http://gitref.org/)
 
 #### Git installation
 
-- Windows: <http://help.github.com/win-set-up-git/>
-- Mac: <http://help.github.com/mac-set-up-git/>
+- [Windows](http://help.github.com/win-set-up-git/)
+- [Mac](http://help.github.com/mac-set-up-git/)
 
 ---
 
@@ -146,25 +144,24 @@ Though Git is a command line system, there are many GUI tools for users who are 
 
 ### Git Windows
 
-- **<http://windows.github.com/>**
-- <http://www.syntevo.com/smartgit/index.html>
-- <http://code.google.com/p/tortoisegit/>
+- **[GitHub for Windows](http://windows.github.com/)**
+- [SmartGit](http://www.syntevo.com/smartgit/index.html)
+- [TortoiseGit](http://code.google.com/p/tortoisegit/)
 
 ### Git Mac
 
-- **<http://mac.github.com/>**
-- <http://www.sourcetreeapp.com/>
-- <http://gitboxapp.com/> (Paid)
-- <http://www.git-tower.com/> (Paid)
-  
+- **[GitHub for Mac](http://mac.github.com/)**
+- [SourceTree](http://www.sourcetreeapp.com/)
+- [Git Tower](http://www.git-tower.com/)
+
 ---
 
 ## Repository hosting
 
 Using version control is great for backups of your source code files, but often a remote backup is even better. There are some great version control hosting solutions online—the most popular is GitHub.
 
-- **GitHub <http://github.com>**
+- **[GitHub](http://github.com)**
 
 	<http://net.tutsplus.com/tutorials/other/getting-the-hang-of-github/>
 
-- BitBucket <http://bitbucket.com>
+- [BitBucket](http://bitbucket.com)
