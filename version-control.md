@@ -120,7 +120,7 @@ Now you have a litter of different files for different features you’ve tried o
 
 Git branching solves this problem by providing a clean way to make copies of your code to work on a specific feature.
 
-**[☛ Git Branching + GitHub Flow](branching-github-flow.md)**
+**[☛ Git Branching + GitHub Flow](branching-github-flow)**
 
 ---
 
