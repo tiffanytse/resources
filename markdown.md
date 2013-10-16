@@ -5,63 +5,14 @@ It allows us to add semantics and style to our documents without overpowering th
 
 Markdown can easily be converted to HTML and its tags match those found in HTML—there is a one-to-one mapping.
 
+---
+
 ## Files
 
 Markdown files are simply plain text files.
 But often the extension of the file is changed to `.md` to signify Markdown syntax.
 
-## Syntax
-
-For paragraphs in Markdown there is no visible syntax,
-just write lines of text and separate them by a blank line.
-Markdown will automatically convert text with blank lines between into paragraphs.
-
-	This is the first paragraph.
-	
-	This is the second paragraph of text.
-
-To make something italic, surround it in a single set of asterisks.
-To make something bold, surround it in double asterisks.
-
-	Some words are *italic* and some words are **bold**.
-
-Headings are denoted using a hash symbol in front:
-
-	# Heading level 1
-	## Heading level 2
-	### Heading level 3
-
-Lists are created by putting dashes in front of lines of text:
-
-	- List item 1
-	- List item 2
-	- List item 3
-
-To add links there is a little more syntax:
-
-	[Link this text](http://url-to-link-to.com/)
-
-To add images, use a syntax similar to links:
-
-	![Image alt attribute](http://url-to-image.com/image.png)
-
-To add horizontal rules, use three dashes:
-
-	This is a paragraph.
-	
-	---
-	
-	This is another paragraph, separated by a horizontal rule.
-
-And finally, GitHub supports to-do lists in Markdown files using the following format:
-
-	- [ ] Thing to do
-	- [ ] Another thing to do
-	- [x] Thing that’s already done
-
-*GitHub will even convert those to checkboxes in specific locations.*
-
-**Read the [syntax documentation](http://daringfireball.net/projects/markdown/syntax) for lots more.**
+---
 
 ## Use
 
@@ -72,14 +23,118 @@ Just name your Readme `README.md` and GitHub will do the rest.
 Another really common use is content preparation for responsive websites.
 It’s a really good way to organize and understand the structure of content without forcing HTML upon your authors.
 
-Some Markdown processors are even aware of [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/), that can allow authors to add extra metadata to their documents.
+---
+
+## Syntax
+
+For paragraphs in Markdown there is no visible syntax,
+just write lines of text and separate them by a blank line.
+Markdown will automatically convert text with blank lines between into paragraphs.
+
+```markdown
+This is the first paragraph.
+
+This is the second paragraph of text.
+```
+
+To make something italic, surround it in a single set of asterisks.
+To make something bold, surround it in double asterisks.
+
+```markdown
+Some words are *italic* and some words are **bold**.
+```
+
+Headings are denoted using a hash symbol in front:
+
+```markdown
+# Heading level 1
+## Heading level 2
+### Heading level 3
+```
+
+Lists are created by putting dashes in front of lines of text:
+
+```markdown
+- List item 1
+- List item 2
+- List item 3
+```
+
+To add links there is a little more syntax:
+
+```markdown
+[Link this text](http://url-to-link-to.com/)
+```
+
+To add images, use a syntax similar to links:
+
+```markdown
+![Image alt attribute](http://url-to-image.com/image.png)
+```
+
+To add horizontal rules, use three dashes:
+
+```markdown
+This is a paragraph.
+
+---
+
+This is another paragraph, separated by a horizontal rule.
+```
+
+And finally, GitHub supports to-do lists in Markdown files using the following format:
+
+```markdown
+- [ ] Thing to do
+- [ ] Another thing to do
+- [x] Thing that’s already done
+```
+
+*GitHub will even convert those to checkboxes in specific locations.*
+
+**Read the [syntax documentation](http://daringfireball.net/projects/markdown/syntax) for lots more.**
+
+---
+
+## YAML front-matter
+
+Markdown is used for structuring your content. Sometimes you want to add more structured data to your Markdown that just the default formatting. This can be accomplished with YAML front matter.
+
+At the top of your Markdown document, you put a series of three double dashes and provide more data between them:
+
+```
+---
+name: Venus
+discoverer: Galileo Galilei
+discovered: 1610
+orbit: 247 days
+radius: 6051 km
+tilt: 177°
+---
+```
+
+1. You make-up a label for the data, using a word and a colon, like `name:`.
+2. Put a single space—it won’t work without it
+3. Write the data you’d like for that label
+
+This data can then be used in lots of applications, including Jekyll.
+
+**Links**
+
+- [Wikipedia: YAML](http://en.wikipedia.org/wiki/YAML)
+- [YAML Spec](http://yaml.org/)
+- [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/)
+
+---
 
 ## Resources & tutorials
 
-- <http://en.wikipedia.org/wiki/Markdown>
-- <http://daringfireball.net/projects/markdown/>
-- <http://daringfireball.net/projects/markdown/basics>
-- <http://daringfireball.net/projects/markdown/syntax>
+- [Wikipedia: Markdown](http://en.wikipedia.org/wiki/Markdown)
+- [Markdown Spec](http://daringfireball.net/projects/markdown/)
+- [Markdown Basics](http://daringfireball.net/projects/markdown/basics)
+- [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax)
+
+---
 
 ## Apps
 
