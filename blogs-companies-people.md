@@ -75,6 +75,8 @@
 [@paul_irish](http://twitter.com/paul_irish)
 - [Roger Johansson](http://www.456bereastreet.com/)
 [@rogerjohansson](https://twitter.com/rogerjohansson)
+- [Laura Kalbag](http://laurakalbag.com/)
+[@laurakalbag](https://twitter.com/laurakalbag)
 - [Jeremy Keith](http://adactio.com/journal/)
 [@adactio](https://twitter.com/adactio)
 - [Peter-Paul Koch](http://www.quirksmode.org/blog/)
