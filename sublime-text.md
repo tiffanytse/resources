@@ -47,7 +47,7 @@ Sublime Text > Preferences > Settings - User
 To save time and have Sublime Text set up quickly, copy these settings and overwrite everything in your user settings.
 *These settings contain lots of helpful bits to set up Sublime Text the way that it works for me—if you don’t like one of the options feel free to change it.*
 
-[☛ Default settings](st/default-settings.json)
+[☛ User settings](st/settings-user.json)
 
 ### Packages
 
