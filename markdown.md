@@ -121,6 +121,7 @@ This data can then be used in lots of applications, including Jekyll.
 
 **Links**
 
+- **[YAML Validator](http://yamllint.com/)**
 - [Wikipedia: YAML](http://en.wikipedia.org/wiki/YAML)
 - [YAML Spec](http://yaml.org/)
 - [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/)
