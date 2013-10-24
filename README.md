@@ -1,6 +1,6 @@
 # Resources
 
-Resources, notes, and small topics for the [Algonquin College Graphic Design](http://goalgonquin.com/graphicdesign) program.
+Code samples, documentation, tutorials, & videos for the [Algonquin College Graphic Design](http://algonquindesign.ca) program.
 
 - [Blogs, Companies & People](blogs-companies-people.md)
 - [Licenses & Copyright](licenses-copyright.md)
