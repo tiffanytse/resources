@@ -75,13 +75,17 @@ Just create a file in your repository named `.gitignore` and put the names of th
 
 #### Ignore my database connection file
 
-	db-conn.php
+```
+db-conn.php
+```
 
 #### A default .gitignore
 
-	._*
-	.DS_Store
-	Thumbs.db
+```
+._*
+.DS_Store
+Thumbs.db
+```
 
 [☛ Git ignore templates on GitHub](https://github.com/github/gitignore)
 

@@ -25,12 +25,14 @@
 
 ## Folder structure
 
-	website/
-	 |- img/
-	 |- css/
-	     |- general.css
-	 |- js/
-	 |- index.html
+```
+website/
+ |- img/
+ |- css/
+     |- general.css
+ |- js/
+ |- index.html
+```
 
 ---
 
@@ -42,12 +44,14 @@ All nested elements should be indented with 1 tab.
 
 #### Correct HTML indentation
 
-	<body>
-		<div>
-			<h1>My Heading</h1>
-			<p>Lots of paragraph content.</p>
-		</div>
-	</body>
+```html
+<body>
+	<div>
+		<h1>My Heading</h1>
+		<p>Lots of paragraph content.</p>
+	</div>
+</body>
+```
 
 ### CSS
 
@@ -55,8 +59,10 @@ All properties should be indented with 1 tab.
 
 #### Correct CSS indentation
 
-	body {
-		background-color: #ccc;
-		font-size: 100%;
-		font-family: sans-serif;
-	}
+```css
+body {
+	background-color: #ccc;
+	font-size: 100%;
+	font-family: sans-serif;
+}
+```
