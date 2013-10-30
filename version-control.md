@@ -134,6 +134,7 @@ Git branching solves this problem by providing a clean way to make copies of you
 
 - [Git + GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB)
 - [Replacing FTP with Git + GitHub](http://www.youtube.com/watch?v=24NGu1vGBiw)
+- [GitHub Guides](http://www.youtube.com/user/GitHubGuides)
 
 ### Version control
 
