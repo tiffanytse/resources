@@ -8,6 +8,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 - [Sublime Text](sublime-text.md)
 - [Version Control](version-control.md)
 	- [Branching & GitHub Flow](branching-github-flow)
+	- [GitHub Pages](github-pages)
 - [Markdown](markdown.md)
 - [Launch Checklist](launch-checklist.md)
 
