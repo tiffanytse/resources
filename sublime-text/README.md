@@ -40,14 +40,14 @@ To update and add your own settings go in the menu to:
 Sublime Text > Preferences > Settings - User
 ```
 
-![](st/settings-user.png)
+![](settings-user.png)
 
 #### Some default settings
 
 To save time and have Sublime Text set up quickly, copy these settings and overwrite everything in your user settings.
 *These settings contain lots of helpful bits to set up Sublime Text the way that it works for me—if you don’t like one of the options feel free to change it.*
 
-[☛ User settings](st/settings-user.json)
+[☛ User settings](settings-user.json)
 
 ### Packages
 
@@ -84,12 +84,12 @@ You don’t have to type all the letters, just some of them—it’s called fuzz
 In the screenshot you can see I only had to type “packin”.
 You can select it by hitting the up/down arrow keys and pressing `Return`.
 
-![](st/package-control-1.png)
+![](package-control-1.png)
 
 A list of available packages will come up and you can start typing the name of the one you want.
 When you find the one you want select it and it will download and install.
 
-![](st/package-control-2.png)
+![](package-control-2.png)
 
 ### Snippets
 
@@ -122,12 +122,12 @@ From Sublime Text, go in the menu to:
 Sublime Text > Preferences > Browse Packages
 ```
 
-![](st/browse-packages.png)
+![](browse-packages.png)
 
 This will open up a Finder window. You should see a folder named “User”—navigate into it.
 Drop the folder you downloaded into the “User” folder.
 
-![](st/packages-user.png)
+![](packages-user.png)
 
 ---
 
