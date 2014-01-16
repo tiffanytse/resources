@@ -5,7 +5,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 - [Blogs, Companies & People](blogs-companies-people.md)
 - [Licenses & Copyright](licenses-copyright.md)
 - [Naming Conventions](naming-conventions.md)
-- [Sublime Text](sublime-text.md)
+- [Sublime Text](sublime-text)
 - [Version Control](version-control.md)
 	- [Branching & GitHub Flow](branching-github-flow)
 	- [GitHub Pages](github-pages)
