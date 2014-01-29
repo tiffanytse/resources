@@ -6,7 +6,7 @@ Now you have a litter of different files for different features you’ve tried o
 
 **Git branching solves this problem by providing a clean way to make copies of your code to work on a specific feature.**
 
-### [☛ Videos for branching & GitHub Flow](http://www.youtube.com/watch?v=MxIsiiUmFg8&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=2)
+### [☛ Videos for branching & GitHub Flow](https://www.youtube.com/watch?v=mHl91Udzljw&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=6)
 
 ---
 
@@ -79,7 +79,3 @@ When you are satisfied with your changes you sync to GitHub, make a pull request
 
 - [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 - [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/)
-
----
-
-Pointer icon by [___Lo, from The Noun Project](http://thenounproject.com/noun/pointer/?dwn=CCBY&dwn_icon=2030#icon-No2030)

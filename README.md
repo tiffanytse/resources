@@ -7,8 +7,8 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 - [Naming Conventions](naming-conventions.md)
 - [Sublime Text](sublime-text) *or* [Adobe Brackets](brackets)
 - [Version Control](version-control.md)
-	- [Branching & GitHub Flow](branching-github-flow)
 	- [GitHub Pages](github-pages)
+	- [Branching & GitHub Flow](branching-github-flow)
 - [Markdown](markdown.md)
 - [Launch Checklist](launch-checklist.md)
 

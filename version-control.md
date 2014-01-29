@@ -2,15 +2,13 @@
 
 Version control is something all developers & designers should become intimately familiar with. It allows us to track changes in our code, over time, and rollback to older versions if we mess up.
 
-### [☛ Videos for Git & GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB)
-
----
-
-## Overview
-
 There are two kinds of version control software: centralized and distributed. With centralized you only get a copy of the current version of the code, but with distributed you get all the history also.
 
 Distributed solutions are considered to be better for collaboration with other developers and easily merge your changes with others’ changes.
+
+### [☛ Videos for Git & GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB)
+
+---
 
 ## Tools
 
