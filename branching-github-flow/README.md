@@ -77,5 +77,6 @@ When you are satisfied with your changes you sync to GitHub, make a pull request
 
 ## Links
 
+- [GitHub: Mastering GitHub Flow](https://guides.github.com/introduction/flow/index.html)
 - [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 - [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/)
