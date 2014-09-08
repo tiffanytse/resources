@@ -17,13 +17,15 @@
 - All files follow naming conventions
 - All code is indented appropriately
 - Has appropriate Microformats, Microdata, or RDFa Lite
+- Has all the social media meta tags
 - Has been honestly search engine optimized
 - Conforms to WCAG 2 AA or higher
 - Has a favicon (and Apple Touch Icon, Opera Speed Dial Icon, Windows Tile Icon)
-- Tested in many browsers including IE 8+, FF, Safari, Chrome, & Opera
-- Tested on screen sizes ranging from 240 px to 2500 px
+- Tested in many browsers including IE 9+, FF, Safari, Chrome, & Opera
+- Tested on screen sizes ranging from 320 px to ~2500 px
 - Tested on different devices including phones, tablets, laptops, desktops, and televisions
 - Has a 404 page
+- GitHub project has a complete readme
 
 ## Post-Launch Checklist
 
