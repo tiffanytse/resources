@@ -130,6 +130,7 @@ This data can then be used in lots of applications, including Jekyll.
 
 ## Resources & tutorials
 
+- [GitHub: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Wikipedia: Markdown](http://en.wikipedia.org/wiki/Markdown)
 - [Markdown Spec](http://daringfireball.net/projects/markdown/)
 - [Markdown Basics](http://daringfireball.net/projects/markdown/basics)
