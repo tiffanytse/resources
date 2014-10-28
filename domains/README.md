@@ -9,7 +9,7 @@ Each computer as an address, know as an IP Address, but mostly humans want somet
 ---
 
 - [Domains & IPs](#domains--ips)
-- [How it connects together](#how-it-connects-together)
+- [How everything connects together](#how-everything-connects-together)
 	- [How you see a website](#how-you-see-a-website)
 	- [How e-mails are sent](#how-e-mails-are-sent)
 
@@ -36,7 +36,7 @@ There’s a direct connection between a domain and it’s associated IP address.
 
 ---
 
-## How it connects together
+## How everything connects together
 
 ![](domains-dns-servers.png)
 
