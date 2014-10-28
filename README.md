@@ -10,6 +10,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 	- [GitHub Pages](github-pages)
 	- [Branching & GitHub Flow](branching-github-flow)
 - [Markdown](markdown.md)
+- [Domains & DNS](domains)
 - [Launch Checklist](launch-checklist.md)
 
 ---
