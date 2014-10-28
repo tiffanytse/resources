@@ -91,12 +91,12 @@ After you write your e-mail message and click send a whole bunch of requests are
 
 **Recommended registrars**
 
-- [Hover.com](https://www.hover.com/)
-- [Gandi.net](http://www.gandi.net/)
+- [Hover](https://www.hover.com/)
+- [Gandi](http://www.gandi.net/)
 
 **Recommended e-mail providers**
 
-- [Fastmail.com](https://www.fastmail.com/)
+- [FastMail](https://www.fastmail.com/)
 
 **Recommended website hosts**
 
