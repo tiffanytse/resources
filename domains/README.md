@@ -12,7 +12,7 @@ Each computer as an address, know as an IP Address, but mostly humans want somet
 - [How everything connects together](#how-everything-connects-together)
 	- [How you see a website](#how-you-see-a-website)
 	- [How e-mails are sent](#how-e-mails-are-sent)
-- [Links & resources](#links-and-resources)
+- [Links and resources](#links-and-resources)
 
 ---
 
