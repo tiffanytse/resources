@@ -25,7 +25,7 @@ An IP address looks something like this: `192.168.1.0` or `2001:0db8:85a3:0000:0
 
 So the purpose of the Domain Name System (DNS) is to map domains to IP address and provide other information about a website.
 
-A simple example of a DNS records might look something like this:
+A simple example of DNS records might look like this:
 
 ```
 algonquindesign.ca.        A    192.168.0.1
