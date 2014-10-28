@@ -79,3 +79,33 @@ After you write your e-mail message and click send a whole bunch of requests are
 6. If the `MX` record isn’t an IP address a whole new DNS lookup must happen for the `A` record of the other mail server.
 7. The DNS will then send back the IP address of the other person’s e-mail server.
 8. Your e-mail server connects to the other person’s e-mail server and posts the new message on it.
+
+---
+
+## Links and resources
+
+**DNS tools**
+
+- [MX Toolbox](http://mxtoolbox.com/)
+- [Pingdom: DNS check tool](http://dnscheck.pingdom.com/)
+
+**Recommended registrars**
+
+- [Hover.com](https://www.hover.com/)
+- [Gandi.net](http://www.gandi.net/)
+
+**Recommended e-mail providers**
+
+- [Fastmail.com](https://www.fastmail.com/)
+
+**Recommended website hosts**
+
+- [GitHub](https://github.com/)
+- [WiredTree](https://www.wiredtree.com/)
+- [A Small Orange](http://asmallorange.com/)
+- [SiteGround](http://www.siteground.com/)
+- [DreamHost](https://www.dreamhost.com/)
+
+**Security & performance**
+
+- [CloudFlare](https://www.cloudflare.com/)
