@@ -13,6 +13,16 @@ Each computer as an address, know as an IP Address, but mostly humans want somet
 	- [How you see a website](#how-you-see-a-website)
 	- [How e-mails are sent](#how-e-mails-are-sent)
 - [Links and resources](#links-and-resources)
+- [Purchasing and hooking up services](#)
+	- [Buying a domain](#)
+		- [Important domain settings](#)
+	- [Buying an e-mail provider](#)
+		- [E-mail server DNS records](#)
+	- [Setting up a host](#)
+		- [Website host DNS records](#)
+	- [Better security and performance](#)
+		- [Changing the NS records](#)
+		- [Using a apex CNAME](#)
 
 ---
 
@@ -83,6 +93,142 @@ After you write your e-mail message and click send a whole bunch of requests are
 
 ---
 
+## Purchasing and hooking up services
+
+It’s usually a good idea to purchase your services from different providers (domains from registrars, hosting from hosts, e-mail from e-mail providers, etc.) for a few reasons:
+
+- More control over your domain settings, e-mail addresses, etc.
+- Easier to move hosts—because you will want to at some point. If you transfer your host, then you don’t also have to transfer your e-mails—and you won’t lose any messages. And you don’t have to transfer your domain, just point it to a new host.
+- If you have hosting related problems, you may also have e-mail related problems if they’re in the same location.
+- Security: if your hosting account is hacked, then so is your domain registrar and the hacker can just transfer your domain somewhere else.
+- It’s not always clear who owns the domain when registering it with a host.
+
+The only real downside of separating domains and hosting is a slight loss in convenience.
+
+### Buying a domain
+
+The first step in the whole process is buying a domain. I usually buy my domains from [Hover](https://www.hover.com/).
+
+Though we generally call it “buying” a domain you aren’t technically *buying* it, but *leasing* it for a certain amount of time, usually a year. *And every year you have to pay for it again.*
+
+- If you’re purchasing a **.ca**, then under “Organization” put your full name, like: “Thomas Bradley“. It’s important that you spell it the same way you do in the “Name” fields.
+- When choosing your “Legal Type” you likely want to choose “Canadian Citizen”. The **.ca** TLD is only available to Canadian citizens and corporations, but lots of other countries open up their TLDs to anybody.
+
+![](hover-control-panel.jpg)
+
+#### Important domain settings
+
+- **Auto Renew** — You probably want to keep this on, then when your domain lease is about to expire your registrar will automatically charge your credit card to register the domain again. *You will receive notice e-mails before this happens.*
+- **Transfer Lock** — This disables the ability for the domain to be transfered to another registrar. If you want to transfer your domain you’d have to turn this feature off.
+- **Whois Privacy** — This will hide your personal information from WHOIS lookups. So, if someone searched your domain in the WHOIS database they would not be able to see your address and phone number. *If your registrar is charging you extra for this you’re getting ripped off.*
+- **Forward This Domain** — Allows you to force your domain to be redirected to another location. I use this often if I purchase both the .ca and the .com. I forward the .com to the .ca so that if anyone types .com into their browser it will automatically take them to the primary .ca domain.
+- **Nameservers** — [Go to the section on CloudFlare for more information.]()
+
+### Buying an e-mail provider
+
+There are lots of different e-mail providers and hosts often provide e-mail exchange also. But it’s often best to purchase your e-mail from another provider. I often buy my e-mail services from [FastMail](https://www.fastmail.com/).
+
+*Make sure your e-mail provider supports custom domains—FastMail only supports this in their more expensive packages.*
+
+#### E-mail server DNS records
+
+After you’ve purchase your e-mail service we need to do some domain pointing.
+
+1. Let FastMail know what domain we want to use.
+2. Add aliases for your e-mail address. (Also you should add profiles—read the blue box.)
+3. Update our DNS `MX` and `TXT` records for FastMail.
+
+![](fastmail-advanced.jpg)
+![](fastmail-virtual-domains.jpg)
+![](fastmail-all-settings.jpg)
+
+1. Under “Domain” add your domain into the input field and click “Add”—keep all the other settings the same.
+2. Under “Virtual Aliases” add as many e-mail addresses as you want—just enter the part before the @-symbol.
+	If you want your e-mail to be “info@domain.ca” just put “info” into the box and click “Add”. Keep all the other settings the same.
+3. Set some DNS records in Hover.
+
+![](hover-dns.jpg)
+
+**Purple numbers.**
+
+1. Edit the `MX` record that is already there and put in the first server *[FastMail listed on this page—step 4, subsection 2](https://www.fastmail.fm/help/receive/domains.html)*.
+	Last time I checked the server was: `in1-smtp.messagingengine.com`.
+2. Click the “Add New” button and fill in these details:
+	- *Hostname*: `@`
+	- *Record Type*: `MX`
+	- *Priority*: `20`
+	- *Hostname*: `in2-smtp.messagingengine.com` (Section server on FastMail’s help page, last time I checked.)
+3. Click the “Add New” button and fill in these details:
+	- *Hostname*: `mesmtp._domainkey`
+	This is found at the bottom of FastMail’s “Virtual Domain” settings. Previous screenshot, number 3.
+	- *Record Type*: `TXT`
+	- *Value*: All that gobbledygook from the bottom of FastMail’s “Virtual Domain” settings. Previous screenshot, number 3.
+
+*And your e-mail is all set up—but it’ll take anywhere from 1 hour to 24 hours for it to start working.*
+
+### Setting up a host
+
+Using GitHub as a static website host is simple, integrates with our processes—and it’s free.
+
+*On GitHub create a repository like you normally do. And create a `gh-pages` branch like you normally do.*
+
+Within your repository create a new file named exactly `CNAME`—no extension. Inside this file put the domain you want, like: `algonquindesign.ca`.
+
+![](github-cname.jpg)
+
+Sync and commit. GitHub is set up.
+
+#### Website host DNS records
+
+Now we have to move onto Hover, our domain registrar, and point our records to GitHub. We need to update our `A` records for GitHub.
+
+![](hover-dns.jpg)
+
+**Blue numbers.**
+
+1. Edit the first `A` record and change the IP address the the first one *[GitHub listed on this page](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/)*.
+	Last time I checked the server was: `192.30.252.153`.
+2. Edit the second `A` record and change it to the first IP address also: `192.30.252.153`.
+3. Click the “Add New” button and fill in these details:
+	- *Hostname*: `@`
+	- *Record Type*: `A`
+	- *IP Address*: `192.30.252.154` (The second IP in GitHub’s help.)
+4. Click the “Add New” button and fill in these details:
+	- *Hostname*: `*`
+	- *Record Type*: `A`
+	- *IP Address*: `192.30.252.154`
+
+**The better way to do this is with an ANAME, ALIAS, or a Flattened CNAME—[refer to the section below on CloudFlare]().**
+
+*And your web host is all set up—but it’ll take anywhere from 1 hour to 24 hours for it to start working.*
+
+### Better security and performance
+
+CloudFlare is a free service to add an extra level of security and performance to your website. They’re a DNS routing system with the added benefit of stopping security threats to your website and performance enhancements—and SSL.
+
+*First create your CloudFlare account and set everything up. It will ask you to update your Nameservers—go to the next step.*
+
+#### Changing the NS records
+
+Go back to Hover to the “Domain Details” tab and edit your Nameservers. **Change the 2 nameservers to the cutely named ones CloudFlare gives you.**
+
+![](hover-ns.jpg)
+
+#### Using an apex flattened CNAME
+
+Back in CloudFlare, edit the “DNS Settings” for you newly added domain.
+
+![](cloudflare-dns.jpg)
+![](cloudflare-cname.jpg)
+
+1. Delete all the `A` records that got copied over from Hover—but don’t touch anything that isn’t an `A` record.
+2. Add a new `CNAME` record:
+	`yourdomain.ca` is an alias of `your-github-username.github.io`
+
+CloudFlare will say something about CNAME Flattening—and you’re good to go!
+	
+---
+
 ## Links and resources
 
 **DNS tools**
@@ -98,6 +244,8 @@ After you write your e-mail message and click send a whole bunch of requests are
 **Recommended e-mail providers**
 
 - [FastMail](https://www.fastmail.com/)
+- [Google Apps for Work](http://www.google.com/work/apps/business/)
+- [Rackspace](http://www.rackspace.com/email-hosting/webmail/)
 
 **Recommended website hosts**
 
