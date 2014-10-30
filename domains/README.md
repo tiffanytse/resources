@@ -14,13 +14,13 @@ Each computer as an address, know as an IP Address, but mostly humans want somet
 	- [How e-mails are sent](#how-e-mails-are-sent)
 - [Links and resources](#links-and-resources)
 - [Purchasing and hooking up services](#)
-	- [Buying a domain](#)
+	- [Buying a domain on Hover](#)
 		- [Important domain settings](#)
-	- [Buying an e-mail provider](#)
+	- [Buying e-mail service with FastMail](#)
 		- [E-mail server DNS records](#)
-	- [Setting up a host](#)
+	- [Hosting on Github](#)
 		- [Website host DNS records](#)
-	- [Better security and performance](#)
+	- [Better security and performance with CloudFlare](#)
 		- [Changing the NS records](#)
 		- [Using a apex CNAME](#)
 
@@ -105,7 +105,7 @@ It’s usually a good idea to purchase your services from different providers (d
 
 The only real downside of separating domains and hosting is a slight loss in convenience.
 
-### Buying a domain
+### Buying a domain on Hover
 
 The first step in the whole process is buying a domain. I usually buy my domains from [Hover](https://www.hover.com/).
 
@@ -124,7 +124,7 @@ Though we generally call it “buying” a domain you aren’t technically *buyi
 - **Forward This Domain** — Allows you to force your domain to be redirected to another location. I use this often if I purchase both the .ca and the .com. I forward the .com to the .ca so that if anyone types .com into their browser it will automatically take them to the primary .ca domain.
 - **Nameservers** — [Go to the section on CloudFlare for more information.]()
 
-### Buying an e-mail provider
+### Buying e-mail service with FastMail
 
 There are lots of different e-mail providers and hosts often provide e-mail exchange also. But it’s often best to purchase your e-mail from another provider. I often buy my e-mail services from [FastMail](https://www.fastmail.com/).
 
@@ -166,7 +166,7 @@ After you’ve purchase your e-mail service we need to do some domain pointing.
 
 *And your e-mail is all set up—but it’ll take anywhere from 1 hour to 24 hours for it to start working.*
 
-### Setting up a host
+### Hosting on GitHub
 
 Using GitHub as a static website host is simple, integrates with our processes—and it’s free.
 
@@ -202,7 +202,7 @@ Now we have to move onto Hover, our domain registrar, and point our records to G
 
 *And your web host is all set up—but it’ll take anywhere from 1 hour to 24 hours for it to start working.*
 
-### Better security and performance
+### Better security and performance with CloudFlare
 
 CloudFlare is a free service to add an extra level of security and performance to your website. They’re a DNS routing system with the added benefit of stopping security threats to your website and performance enhancements—and SSL.
 
