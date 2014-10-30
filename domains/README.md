@@ -12,7 +12,6 @@ Each computer as an address, know as an IP Address, but mostly humans want somet
 - [How everything connects together](#how-everything-connects-together)
 	- [How you see a website](#how-you-see-a-website)
 	- [How e-mails are sent](#how-e-mails-are-sent)
-- [Links and resources](#links-and-resources)
 - [Purchasing and hooking up services](#purchasing-and-hooking-up-services)
 	- [Buying a domain on **Hover**](#buying-a-domain-on-hover)
 		- [Important domain settings](#important-domain-settings)
@@ -23,6 +22,7 @@ Each computer as an address, know as an IP Address, but mostly humans want somet
 	- [Better security and performance with **CloudFlare**](#better-security-and-performance-with-cloudflare)
 		- [Changing the NS records](#changing-the-ns-records)
 		- [Using an apex flattened CNAME](#using-an-apex-flattened-cname)
+- [Links and resources](#links-and-resources)
 
 ---
 
