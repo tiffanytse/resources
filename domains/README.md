@@ -4,7 +4,7 @@ The Internet is a distributed system of interconnected computers throughout the 
 
 Each computer as an address, know as an IP Address, but mostly humans want something more memorable—that’s where domains come in.
 
-### [☛ Videos for domains]()
+### [☛ Videos for domains](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
 
 ---
 
@@ -124,6 +124,10 @@ Though we generally call it “buying” a domain you aren’t technically *buyi
 - **Forward This Domain** — Allows you to force your domain to be redirected to another location. I use this often if I purchase both the .ca and the .com. I forward the .com to the .ca so that if anyone types .com into their browser it will automatically take them to the primary .ca domain.
 - **Nameservers** — [Go to the section on CloudFlare for more information.](#better-security-and-performance-with-cloudflare)
 
+**Videos**
+
+- [Domains & DNS: Purchasing a domain](https://www.youtube.com/watch?v=yFrW8zXVFSs&index=1&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+
 ### Buying e-mail service with FastMail
 
 There are lots of different e-mail providers and hosts often provide e-mail exchange also. But it’s best to purchase your e-mail from another provider. I often buy my e-mail services from [FastMail](https://www.fastmail.com/).
@@ -168,6 +172,10 @@ Go to Mail > Advanced > Virtual Domains
 
 *And your e-mail is all set up—but it’ll take anywhere from 1 hour to 24 hours for it to start working.*
 
+**Videos**
+
+- [Domains & DNS: MX records for e-mail services](https://www.youtube.com/watch?v=kiQFbZUa2uQ&index=2&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+
 ### Hosting on GitHub
 
 Using GitHub as a static web host is simple, integrates with our processes—and it’s free.
@@ -203,6 +211,10 @@ Now we have to go into Hover settings, our domain registrar, and point our recor
 
 *And your web host is all set up—but it’ll take anywhere from 1 hour to 24 hours for it to start working.*
 
+**Videos**
+
+- [Domains & DNS: A records for hosts](https://www.youtube.com/watch?v=F1VmaHhDGsA&index=3&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+
 ### Better security and performance with CloudFlare
 
 CloudFlare is a free service to add an extra level of security and performance to your website. They’re a DNS routing system with the added benefit of stopping security threats to your website and performance enhancements—and SSL.
@@ -228,11 +240,25 @@ Back in CloudFlare, edit the “DNS Settings” for your newly added domain.
 
 CloudFlare will say something about CNAME Flattening—and you’re good to go!
 
+**Videos**
+
+- [Domains & DNS: CloudFlare](https://www.youtube.com/watch?v=JVSE2ej8fQI&index=4&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+
 ---
 
 **Phew! We made it through.**
 	
 ---
+
+## Videos
+
+1. [Domains & DNS: Purchasing a domain](https://www.youtube.com/watch?v=yFrW8zXVFSs&index=1&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+2. [Domains & DNS: MX records for e-mail services](https://www.youtube.com/watch?v=kiQFbZUa2uQ&index=2&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+3. [Domains & DNS: A records for hosts](https://www.youtube.com/watch?v=F1VmaHhDGsA&index=3&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+4. [Domains & DNS: CloudFlare](https://www.youtube.com/watch?v=JVSE2ej8fQI&index=4&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+
+---
+
 
 ## Links and resources
 
