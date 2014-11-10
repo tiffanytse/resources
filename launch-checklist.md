@@ -1,35 +1,43 @@
 # Launch Checklist
 
-## Pre-Launch Checklist
-
-- All text is free from spelling errors
-- Content has been placed consistently
-- Navigation is consistently placed
-- Shared page elements don’t shift from page to page
-- All links work
-- All images display properly
-- Every page has a unique, descriptive title
-- Every page has an obvious goal
-- Images have appropriate alt attributes
-- Footer includes copyright information
-- HTML is valid
-- CSS is valid
-- All files follow naming conventions
-- All code is indented appropriately
-- Has appropriate Microformats, Microdata, or RDFa Lite
-- Has all the social media meta tags
-- Has been honestly search engine optimized
-- Conforms to WCAG 2 AA or higher
-- Has a favicon (and Apple Touch Icon, Opera Speed Dial Icon, Windows Tile Icon)
-- Tested in many browsers including IE 9+, FF, Safari, Chrome, & Opera
-- Tested on screen sizes ranging from 320 px to ~2500 px
-- Tested on different devices including phones, tablets, laptops, desktops, and televisions
-- Has a 404 page
-- GitHub project has a complete readme
-
-## Post-Launch Checklist
-
-- Content is visible online
-- Web site is styled the same as on development environment
-- All links work
-- All images display properly
+- [ ] All text is free from spelling and grammar errors
+- [ ] Content has been placed consistently
+- [ ] There’s no placeholder text or images on the website
+- [ ] Navigation is consistently placed
+- [ ] Shared page elements don’t shift from page to page
+- [ ] All links work
+- [ ] All images display properly
+- [ ] Every page has a unique, descriptive title
+- [ ] Every page has a unique meta description
+- [ ] Every page has an obvious goal
+- [ ] Images have appropriate alt attributes
+- [ ] Footer includes copyright information
+- [ ] HTML is valid
+- [ ] CSS is valid
+- [ ] All files follow naming conventions
+- [ ] All code is indented appropriately
+- [ ] Has appropriate Microformats, Microdata, or RDFa Lite
+- [ ] Has all the social media meta tags
+- [ ] Has been honestly search engine optimized
+- [ ] Conforms to WCAG 2 AA or higher
+- [ ] Has a favicon (and Apple Touch Icon, Opera Speed Dial Icon, Windows Tile Icon)
+- [ ] Tested in many browsers including IE, FF, Safari, Chrome & Opera
+- [ ] Tested on screen sizes ranging from 240 px to ~2500 px
+- [ ] Tested on different devices including phones, tablets, laptops, desktops, and televisions
+- [ ] Has a 404 page
+- [ ] GitHub project has a complete Readme
+- [ ] Gets a high grade—or green light—in web performance tests, MobileOK, Google Page Speed
+- [ ] Properly implemented skip links
+- [ ] Correct elements have WAI-ARIA landmark roles
+- [ ] Validated with TotalValidator
+- [ ] Has a robots.txt
+- [ ] The humans.txt file is completed
+- [ ] Has a sitemap.xml file
+- [ ] Javascript has been validated with JSHint
+- [ ] Content has semantically appropriate elements
+- [ ] Google Analytics or other analytics package is set up
+- [ ] Uptime monitoring with UptimeRobot or Pingdom
+- [ ] Registered in Google Webmaster Central and Bing Webmaster Tools
+- [ ] Print stylesheet is included
+- [ ] All forms function properly
+- [ ] All images have been properly compressed smushed
