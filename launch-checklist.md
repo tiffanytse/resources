@@ -65,7 +65,7 @@
 - [ ] Every page has an obvious goal
 - [ ] Has appropriate Microformats, Microdata, or RDFa Lite — [Metadata](https://github.com/algonquindesign/html-css/tree/gh-pages/metadata-enhanced-semantics#structured-data) — [Google Rich Snippets](http://www.google.com/webmasters/tools/richsnippets), [Schema.org](http://schema.org)
 - [ ] Has all the social media meta tags — [Social media tags](https://github.com/algonquindesign/html-css/tree/gh-pages/metadata-enhanced-semantics#social-semantics)
-- [ ] Has a robots.txt and complete humans.txt— [Robots.txt & humans.txt](https://github.com/algonquindesign/html-css/tree/gh-pages/search-engine-optimization#robots--humans)
+- [ ] Has a robots.txt and complete humans.txt — [Robots.txt & humans.txt](https://github.com/algonquindesign/html-css/tree/gh-pages/search-engine-optimization#robots--humans)
 - [ ] Has a sitemap.xml file — [Sitemap.xml](https://github.com/algonquindesign/html-css/tree/gh-pages/search-engine-optimization#sitemaps)
 - [ ] Registered in [Google Webmaster Central](http://www.google.ca/webmasters/) and [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster)
 
