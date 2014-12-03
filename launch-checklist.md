@@ -5,7 +5,7 @@
 - [ ] All text is free from spelling and grammar errors
 - [ ] There’s no placeholder text or images on the website
 - [ ] Content has semantically appropriate elements
-- [ ] Footer includes copyright information, terms, privacy policy, cookie notice
+- [ ] Footer includes copyright information, terms, privacy policy, cookie notice, etc.
 - [ ] All links work — [W3C link checker](http://validator.w3.org/checklink)
 - [ ] All images display properly
 
@@ -14,12 +14,16 @@
 - [ ] Content has been placed consistently
 - [ ] Navigation is consistently placed
 - [ ] Shared page elements don’t shift from page to page
-- [ ] Print stylesheet is included
+- [ ] Responsiveness works well on all screen sizes: no weird spacing issues, no overlapping text, etc.
+- [ ] Follows good typography and graphic design conventions — [Modular typography](https://github.com/algonquindesign/html-css/tree/gh-pages/modular-typography), [Grids](https://github.com/algonquindesign/html-css/tree/gh-pages/grids)
+- [ ] Has consistent graphic design style
 
-**Forms**
+**[Forms](https://github.com/algonquindesign/html-css/tree/gh-pages/forms)**
 
 - [ ] All forms function properly
 - [ ] Forms have proper input types
+- [ ] All forms have a submit button
+- [ ] Forms have a proper completion message
 
 **[Accessibility](https://github.com/algonquindesign/html-css/tree/gh-pages/accessibility)**
 
@@ -37,11 +41,7 @@
 - [ ] HTML is valid — [W3C HTML Validator](http://validator.w3.org/)
 - [ ] CSS is valid — [W3C CSS Validator](http://jigsaw.w3.org/css-validator/), [CSS Lint](http://csslint.net/)
 - [ ] Javascript has been validated — [JS Hint](http://www.jshint.com/), [JS Lint](http://jslint.com/)
-
-**Performance**
-
-- [ ] All images have been properly size, compressed, and smushed — [Compressing & smushing images](https://github.com/algonquindesign/html-css/tree/gh-pages/images#speed-of-images)
-- [ ] Gets a high grade—or green light—in web performance tests: [MobileOK](http://validator.w3.org/mobile/), [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/), [YSlow](http://yslow.org/)
+- [ ] Many and high quality commit messages
 
 **Testing**
 
@@ -56,6 +56,12 @@
 - [ ] Has a 404 page — [404 pages](https://github.com/algonquindesign/html-css/tree/gh-pages/404-pages)
 - [ ] Has all the favicons — [Favicons](https://github.com/algonquindesign/html-css/tree/gh-pages/images#favicons)
 - [ ] GitHub project has a complete Readme
+- [ ] Print stylesheet is included
+
+**[Performance](https://github.com/algonquindesign/html-css/blob/gh-pages/performance.md)**
+
+- [ ] All images have been properly sized, compressed, and smushed — [Compressing & smushing images](https://github.com/algonquindesign/html-css/tree/gh-pages/images#speed-of-images)
+- [ ] Gets a high grade—or green light—in web performance tests: [MobileOK](http://validator.w3.org/mobile/), [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/), [YSlow](http://yslow.org/)
 
 **[Search engine optimization](https://github.com/algonquindesign/html-css/tree/gh-pages/search-engine-optimization)**
 
