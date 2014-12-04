@@ -18,60 +18,59 @@ The idea is that your `master` branch should never be coded on directly. Instead
 
 When you are satisfied with your changes you sync to GitHub, make a pull request, get feedback and merge.
 
-**1. Make a new branch in the GitHub app**
+### 1. Make a new branch in the GitHub app
 
 ![](create.jpg)
 
-**2. Publish the branch**
+### 2. Publish the branch
 
 ![](publish.jpg)
 
-**3. Add new features to your code and commit regularly**
+### 3. Add new features to your code and commit regularly
 
 ![](commit.jpg)
 
-**4. Sync the branch to GitHub**
+### 4. Sync the branch to GitHub
 
 ![](sync-up.jpg)
 
-**5. Press the compare & review button**
+### 5. Press the compare & review button
 
 ![](compare-review.jpg)
 
-**6. Select the new branch**
+### 6. Select the new branch
 
 ![](choose-branch.jpg)
 
-**7. Create a pull request**
+### 7. Create a pull request
 
 ![](pull-request.jpg)
 ![](send-pull-request.jpg)
 
-**8. Request feedback**
+### 8. Request feedback
 
 ![](get-feedback.jpg)
 
-**9. Merge the new branch with master**
+### 9. Merge the new branch with master
 
 ![](merge.jpg)
 ![](confirm-merge.jpg)
 
-**10. Delete the branch**
+### 10. Delete the branch
 
 ![](delete-remote.jpg)
 
-**11. In the GitHub app, switch to master**
+### 11. In the GitHub app, switch to master
 
 ![](switch-branch.jpg)
 
-**12. Sync**
+### 12. Sync
 
 ![](sync-down.jpg)
 
-**13. Delete the local branch**
+### 13. Delete the local branch
 
 ![](delete-local.jpg)
-
 
 ---
 
