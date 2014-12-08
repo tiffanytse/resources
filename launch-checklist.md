@@ -78,7 +78,7 @@
 **Monitoring**
 
 - [ ] Analytics package is set up — [Google Analytics](http://www.google.com/analytics/?gclid=COC2_qf08MECFePyMgodb10AAQ)
-- [ ] Uptime monitoring with [UptimeRobot](http://uptimerobot.com/) or [Pingdom](https://www.pingdom.com/pricing/)
+- [ ] Uptime monitoring with [UptimeRobot](http://uptimerobot.com/) or [Pingdom](https://www.pingdom.com/pricing/) or [updown.io](https://updown.io/)
 
 
 
