@@ -4,7 +4,9 @@ The Internet is a distributed system of interconnected computers throughout the 
 
 Each computer as an address, know as an IP Address, but mostly humans want something more memorable—that’s where domains come in.
 
-### [▶ Videos for domains](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+---
+
+## [▶ Video playlist for domains](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
 
 ---
 
