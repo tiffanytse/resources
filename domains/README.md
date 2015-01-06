@@ -6,7 +6,7 @@ Each computer as an address, know as an IP Address, but mostly humans want somet
 
 ---
 
-## [▶ Video playlist for domains](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+### [▶ Video playlist for domains](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
 
 ---
 
