@@ -6,7 +6,7 @@ Now you have a litter of different files for different features you’ve tried o
 
 **Git branching solves this problem by providing a clean way to make copies of your code to work on a specific feature.**
 
-### [☛ Videos for branching & GitHub Flow](https://www.youtube.com/watch?v=mHl91Udzljw&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=6)
+### [▶ Video playlist for branching & GitHub Flow](https://www.youtube.com/watch?v=mHl91Udzljw&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=6)
 
 ---
 

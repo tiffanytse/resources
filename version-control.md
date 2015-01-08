@@ -6,7 +6,7 @@ There are two kinds of version control software: centralized and distributed. Wi
 
 Distributed solutions are considered to be better for collaboration with other developers and easily merge your changes with others’ changes.
 
-### [☛ Videos for Git & GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB)
+### [▶ Video playlist for Git & GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB)
 
 ---
 

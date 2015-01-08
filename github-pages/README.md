@@ -2,7 +2,7 @@
 
 GitHub has a hosting service for static websites. All you have to do is create a branch named `gh-pages`.
 
-### [☛ Videos for GitHub Pages](https://www.youtube.com/watch?v=-RwSh_pbu_U&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=2)
+### [▶ Video playlist for GitHub Pages](https://www.youtube.com/watch?v=-RwSh_pbu_U&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=2)
 
 ---
 
