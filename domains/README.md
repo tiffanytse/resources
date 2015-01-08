@@ -262,6 +262,10 @@ CloudFlare will say something about CNAME Flattening—and you’re good to go!
 
 ## Links and resources
 
+**Articles**
+
+- [What really happens when you navigate to a URL](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)
+
 **DNS tools**
 
 - [MX Toolbox](http://mxtoolbox.com/)
