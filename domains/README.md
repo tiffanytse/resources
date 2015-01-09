@@ -265,6 +265,7 @@ CloudFlare will say something about CNAME Flattening—and you’re good to go!
 **Articles**
 
 - [What really happens when you navigate to a URL](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)
+- [How Browsers Work](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 
 **DNS tools**
 
